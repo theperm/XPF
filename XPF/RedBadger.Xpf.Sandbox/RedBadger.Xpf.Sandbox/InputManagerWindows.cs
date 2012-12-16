@@ -36,6 +36,7 @@ namespace NekoCake.Crimson.Xpf
     using RedBadger.Xpf.Input;
     using GestureType = RedBadger.Xpf.Input.GestureType;
     using XnaGestureType = Microsoft.Xna.Framework.Input.Touch.GestureType;
+    using System.Reactive.Subjects;
 
     public class InputManagerWindows : IInputManager
     {

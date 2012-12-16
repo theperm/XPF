@@ -67,7 +67,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="RedBadger.Xpf.Phone">
-      <HintPath>..\..\Lib\XPF\RedBadger.Xpf.Phone.dll</HintPath>
+      <HintPath>..\..\..\XPF\RedBadger.Xpf.Phone\bin\Windows Phone\Debug\RedBadger.Xpf.Phone.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="RedBadger.Xpf.Phone.Adapters.Xna">

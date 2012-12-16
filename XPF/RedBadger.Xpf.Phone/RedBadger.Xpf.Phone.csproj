@@ -352,11 +352,11 @@
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" ProjectLinkReference="b72c465c-f710-4e8b-a10f-2da339be3b0d" />
+      <UserProperties ProjectLinkReference="b72c465c-f710-4e8b-a10f-2da339be3b0d" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PostBuildEvent>copy RedBadger.Xpf.Phone.dll $(SolutionDir)..\XPF.Samples\Lib\XPF</PostBuildEvent>
+    <PostBuildEvent>copy RedBadger.Xpf.Phone.dll $(SolutionDir)..\XPF.Samples\Lib\XPF\</PostBuildEvent>
   </PropertyGroup>
   <Target Name="AfterBuild">
     <Exec Condition="!Exists('$(TargetDir)$(TargetName).xml')" Command="copy &quot;$(TargetDir)*.tmp&quot; $(SolutionDir)..\XPF.Samples\Lib\XPF\$(TargetName).xml" />

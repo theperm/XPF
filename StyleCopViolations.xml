@@ -1,0 +1,4 @@
+<StyleCopViolations>
+  <Violation Section="Root.RedBadger.Xpf" LineNumber="30" Source="D:\dev\vs\GitHub\XPF_\XPF\RedBadger.Xpf\IElement.cs" RuleNamespace="StyleCop.CSharp.SpacingRules" Rule="TabsMustNotBeUsed" RuleId="SA1027">Tabs are not allowed. Use spaces instead.</Violation>
+  <Violation Section="Root.RedBadger.Xpf.Data" LineNumber="28" Source="D:\dev\vs\GitHub\XPF_\XPF\RedBadger.Xpf\Data\ValueChangedBehaviorSubject.cs" RuleNamespace="StyleCop.CSharp.SpacingRules" Rule="TabsMustNotBeUsed" RuleId="SA1027">Tabs are not allowed. Use spaces instead.</Violation>
+</StyleCopViolations>
