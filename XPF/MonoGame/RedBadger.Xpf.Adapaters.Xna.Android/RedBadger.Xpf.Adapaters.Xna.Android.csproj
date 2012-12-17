@@ -34,19 +34,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MonoGame.Framework.Android">
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\MonoGame.Framework.Android.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Reactive.Core, Version=2.0.20823.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="System.Reactive.Core">
       <HintPath>..\lib\MonoForAndroid\System.Reactive.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Reactive.Interfaces, Version=2.0.20823.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="System.Reactive.Interfaces">
       <HintPath>..\lib\MonoForAndroid\System.Reactive.Interfaces.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Reactive.Linq, Version=2.0.20823.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="System.Reactive.Linq">
       <HintPath>..\lib\MonoForAndroid\System.Reactive.Linq.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
